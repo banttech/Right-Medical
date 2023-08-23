@@ -1,0 +1,130 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        height: 100vh;
+        width: 100%;
+        font-family: 'Dancing Script', cursive;
+        line-height: 1.5;
+        overflow: hidden;
+    }
+    
+    .main-loginpage {
+        margin: 0;
+        position: relative;
+    }
+    
+    .main-loginpage .container-fluid {
+        padding: 0;
+    }
+    
+    .main-loginpage .rightSide .logo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 50px 0 20px;
+    }
+    
+    .main-loginpage .rightSide .logo img {
+        width: 40px;
+        height: 50px;
+        object-fit: cover;
+    }
+    
+    .main-loginpage .rightSide .innerTxt {
+        text-align: center;
+    }
+    
+    .main-loginpage .rightSide .form-section {
+        margin: 0 60px;
+        padding-top: 20px;
+    }
+    
+    .main-loginpage .rightSide .form-section label {
+        font-weight: bold;
+    }
+    
+    .main-loginpage .rightSide .form-section input {
+        border-bottom: 1px solid #000;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    input:focus {
+        box-shadow: none!important;
+    }
+    
+    .main-loginpage .btn-2 {
+        margin-top: 10%;
+    }
+    
+    .rightSide .copyrightSection p {
+        background: #ccc;
+        margin-bottom: 0;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .rightSide .copyrightSection {
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .rightSide .copyrightSection p {
+        margin-bottom: 0;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .main-loginpage .leftSide .imgsection img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+    
+    .copyrightSection a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .copyrightSection a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    
+    @media (max-width:991px) {
+        .main-loginpage {
+            overflow-x: hidden;
+            position: relative;
+            height: 100vh;
+        }
+        .main-loginpage .logo h1 {
+            font-size: 30px;
+            padding-left: 10px;
+        }
+        .main-loginpage .innerTxt h3 {
+            font-size: 22px;
+        }
+        .main-loginpage .col-md-7 {
+            display: none;
+        }
+        .main-loginpage .col-md-5 {
+            width: 100%;
+            max-width: 100%;
+            flex: 1;
+            height: 100vh;
+        }
+        .main-loginpage .rightSide .form-section {
+            margin: 0 20px;
+        }
+        .rightSide .copyrightSection {
+            width: 100%;
+            left: 0;
+        }
+    }
